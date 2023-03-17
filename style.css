@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Oswald&family=Outfit:wght@400;700&family=Patrick+Hand&family=Playfair+Display&family=Potta+One&family=Roboto&family=Secular+One&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+.parent{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    width: 369px;
+    height: 564px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    row-gap: 20px;
+    margin-block: 60px;
+    background: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+.parent img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.parent .child2 h1{
+    font-weight: 700;
+    font-size: 28px;
+    margin-inline: 24px;
+}
+
+.parent .child3{
+    font-weight: 400;
+}
+.parent .child3 p{
+    font-size: 15px;
+    margin-inline: 51px;
+}
+
+.attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
